@@ -12,10 +12,10 @@ import android.view.MenuItem;
 
 import benefits.with.school.hackaton.tabsactivity.TabsActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends TabsActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
